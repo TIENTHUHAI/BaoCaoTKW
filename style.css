@@ -959,6 +959,7 @@ a:hover .card-title {
     width: 400px;
     top: 0;
     right: 0;
+    overflow-y: scroll;
     padding: 12px 20px;
     background-color: #f5f3f3;
     z-index: 100;
@@ -973,9 +974,9 @@ a:hover .card-title {
     text-align: left;
 }
 
-tbody tr:nth-child(n+6) {
+/* tbody tr:nth-child(n+6) {
     display: none;
-}
+} */
 
 .GioHang table tr td{
     border-bottom: 1px solid gainsboro;
